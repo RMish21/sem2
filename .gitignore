@@ -1,0 +1,13 @@
+agents.md
+#*.wav
+*.mp3
+GV_Eval_3h
+venv 
+GV_Eval_3h.*
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints
+logs/
+output/
+*.log
