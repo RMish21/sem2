@@ -1,0 +1,46 @@
+# Core Dependencies for Hindi Medical Audio Transcription System
+# Python 3.8+ required
+
+# Deep Learning Framework
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Transformers and Models
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Audio Processing
+soundfile>=0.12.1
+librosa>=0.10.0
+pydub>=0.25.1
+
+# Evaluation Metrics
+jiwer>=3.0.0
+
+# Utilities
+numpy>=1.24.0
+tabulate>=0.9.0
+python-dotenv>=1.0.0
+
+# Optional: For Qwen-Audio quantization
+# Uncomment if using model quantization
+bitsandbytes>=0.41.0
+
+# Optional: For Gemini Audio API
+# Uncomment if using Google Gemini Audio
+google-generativeai>=0.3.0
+
+# Development Dependencies (Optional)
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
+
+# Install PyTorch with CUDA 11.8
+# need to run this manually for gpu on laptops
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# for nvidiea gpu support
+# Uninstall current PyTorch
+#pip uninstall torch torchaudio -y
+
+# Install with CUDA 12.1 (compatible with CUDA 13.0)
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
